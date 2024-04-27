@@ -1,4 +1,4 @@
-	
+public class ZigzagConversionStep1 {
 	// ジグザグの動きを愚直に表現することしか思いつかなかった。
 	// テストケースが通らず、curRowやcountの初期値を設定し直したり、else句を追加したり、
 	// インクリメントのタイミングを調整している内に、複雑な処理になってしまった。
@@ -45,3 +45,4 @@
 		}
 		return sb.toString();
 	}
+}
